@@ -1,11 +1,11 @@
-# adrank_jd273
+# quantization_precision_fallback_signature_match
 
 **给广告召回与排序工程师·量化位宽与精度回退算一个特征指纹并定位可疑片段。**
 
-`adrank_jd273` —— 通过字符级与结构级特征识别广告召回与排序工程师·量化位宽与精度回退的痕迹，给出密度与命中位置
+`quantization_precision_fallback_signature_match` —— 通过字符级与结构级特征识别广告召回与排序工程师·量化位宽与精度回退的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`adrank_jd273.py` 拷走就能用
+- 单文件，`quantization_precision_fallback_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install gabsduran-adrank_jd273
+pip install gabsduran-quantization_precision_fallback_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-adrank_jd273 --help
+quantization_precision_fallback_signature_match --help
 ```
 
-也可以不用安装，直接把 `adrank_jd273.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `quantization_precision_fallback_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ adrank_jd273 --help
 ## 用法
 
 ```bash
-python adrank_jd273.py --file input.txt
-python adrank_jd273.py --text "示例内容"
-python adrank_jd273.py --file input.txt --json
+python quantization_precision_fallback_signature_match.py --file input.txt
+python quantization_precision_fallback_signature_match.py --text "示例内容"
+python quantization_precision_fallback_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python adrank_jd273.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_adrank_jd273.py
+python test_quantization_precision_fallback_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_adrank_jd273.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/gabsduran/adrank_jd273>
+- GitHub 仓库：<https://github.com/gabsduran/quantization_precision_fallback_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_adrank_jd273.py
 gabsduran 做广告召回与排序工程师·量化位宽与精度回退相关的问题，方向对标百度的架构广告召回与排序工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://gabsduran.github.io>
-- 仓库：<https://github.com/gabsduran/adrank_jd273>
+- 仓库：<https://github.com/gabsduran/quantization_precision_fallback_signature_match>
 
 ## 许可
 

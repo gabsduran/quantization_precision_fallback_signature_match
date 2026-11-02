@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gabsduran-adrank_jd273"
+name = "gabsduran-quantization_precision_fallback_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别广告召回与排序工程师·量化位宽与精度回退的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://gabsduran.github.io"
-Repository = "https://github.com/gabsduran/adrank_jd273"
-Issues = "https://github.com/gabsduran/adrank_jd273/issues"
+Repository = "https://github.com/gabsduran/quantization_precision_fallback_signature_match"
+Issues = "https://github.com/gabsduran/quantization_precision_fallback_signature_match/issues"
 
 [project.scripts]
-adrank_jd273 = "adrank_jd273:main"
+quantization_precision_fallback_signature_match = "quantization_precision_fallback_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["adrank_jd273"]
+py-modules = ["quantization_precision_fallback_signature_match"]
